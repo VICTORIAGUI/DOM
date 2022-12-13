@@ -1,0 +1,40 @@
+Dom é um modelo de objetos para documentos. Basicamente é um conjunto de obejtos dentro do seu navegador que var dar acesso aos componentes internos do seu website. O DOM não funciona dentro do Node JS, ele tá presente quando você roda o JavaScript dentro do seu navegador.
+
+Onde os elementos de cada documento são organizados em  uma estrutura de árvore.
+
+Como toda árvore ela começa da raiz e a raiz do DOM se chama window. Logo Tudo dentro do JavaScript está dentro de documento chamado window.
+
+Dentro do window temos vários outros objetos, como:
+O location que diz qual é a localização do nosso site, qual é a url, qual é a página atual e qual foi a página anterior.
+
+O document que é o documento atual.
+
+E o history que vai ficar guardado de onde vamos pra onde vamos. E isso facilita a navegação dentro do site.
+
+Dentro do document que é o objeto mais importante temos o obejto HTML, e é literalmente a parte HTML do nosso site.
+Já dentro do HTML temos mais outros dois objetos que chamamos de child. O head e o body.
+
+
+O HTML é o parente do head e do body e o head e o body são os child de html.
+Quem está em cima é parent e quem tá embaixo é child.
+
+ex:
+
+Crie um arquivo HTML;
+Abra o arquivo no Live Server;
+No arquivo HTML crie um <h1> e dois <p>;
+Coloque como <h1>Primeiros passos com DOM<h1;
+No primeiro <p>Aqui vai o resultado<p>;
+Já no segundo coloque <p>Aprendendo a usar o <strong>DOM<strong> em JavaScript;
+Crie um arquivo CSS e linque com o arquivo HTML;
+Crie um <script> dentro do body abaixo de tudo que já foi criado..
+Mude o background da página para uma cor de sua preferência, logo como a cor da fonte e a fonte.
+
+Adicionando componente:
+Dentro do script coloque:
+window.document.write('Olá, Mundo!')
+
+Buscando url:
+Dentro do Script coloque:
+window.document.writer('window.documente.url)
+A url do site será exibida na tela.
